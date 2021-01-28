@@ -1,0 +1,79 @@
+header {
+    position: relative;
+    
+    .header-banner {
+        height: 80%;
+        div{
+            padding: 0;
+            img{
+                width: 100%;
+            }
+        }  
+    }
+    a{
+        color: @color-1;
+        text-decoration: none;
+    }
+    .header-top{
+        width: 90%;
+        position: absolute;
+        top: 3%;
+        left: 5.3%;
+        .logo{
+            width: 90%;
+        }
+        .cart{
+            width: 10%;
+            ul{
+                list-style: none;
+                display:flex;
+                flex-flow: row nowrap;
+                li{
+                    margin-left: 20px;
+                }
+            }
+        }
+        
+    }
+    .header-title{
+        margin: 0;
+        padding: 0 1em;
+        position: absolute;
+        top: 30%;
+        left: 18%;
+        h5{
+            font-style: normal;
+            word-spacing: 20px;
+            opacity: @opacity-1;
+            letter-spacing: @size-1;
+            font-family: "Fira Sans";
+        }
+        h1{
+            font-size: 70px;
+            letter-spacing: 30px;
+            color: #333333;
+            font-weight: 600;
+            font-style: italic;
+     
+        }
+        ul li{
+            top: 20%;
+            list-style: none;
+            a{
+                font-size: 20px;
+                opacity: @opacity-1;
+                &:hover{
+                    opacity: 1;
+                    color: @color-1;
+                }
+            }
+            
+        }
+        button{
+            background-color: black;
+            padding: @size-1;
+        }
+    }
+    
+}
+
